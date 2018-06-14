@@ -1,0 +1,19 @@
+#Wed Jun 13 21:00:07 CDT 2018
+shaderPack=Wisdom-Shaders-V3.2-Release-Build3230.zip
+TexMinFilB=0
+shadowResMul=0.70710677
+tweakBlockDamage=true
+TexMagFilB=0
+oldLighting=default
+handDepthMul=0.25
+TexMinFilS=0
+renderResMul=0.70710677
+TexMagFilS=0
+TexMinFilN=0
+shadowClipFrustrum=true
+TexMagFilN=0
+normalMapEnabled=true
+cloudShadow=true
+specularMapEnabled=true
+antialiasingLevel=0
+oldHandLight=default

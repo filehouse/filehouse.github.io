@@ -1,0 +1,176 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  CCLCorePlugin (CodeChickenLib-1.10.2-2.2.3.57-universal.jar)
+  LoadingPlugin (ResourceLoader-MC1.9.4-1.5.1.jar)
+  TransformerLoader (OpenComputers-MC1.10.2-1.6.0.4.jar)
+  NEICorePlugin (NotEnoughItems-1.10.2-2.1.2.164-universal.jar)
+  BetterFoliageLoader (BetterFoliage-MC1.10.2-2.1.11.jar)
+  CCLCorePlugin (CodeChickenLib-1.10.2-2.4.3.124-universal.jar)
+  DepLoader (CodeChickenCore-1.10.2-2.3.5.91-universal.jar)
+Contact their authors BEFORE contacting forge
+
+// But it works on my machine.
+
+Time: 6/10/18 6:34 PM
+Description: Unexpected error
+
+java.lang.ClassCastException: net.minecraft.item.ItemBlock cannot be cast to com.vicmatskiv.weaponlib.Weapon
+	at com.vicmatskiv.weaponlib.PlayerWeaponInstance.getWeapon(PlayerWeaponInstance.java:195)
+	at com.vicmatskiv.weaponlib.CustomGui.getDefaultWeaponMessage(CustomGui.java:303)
+	at com.vicmatskiv.weaponlib.CustomGui.onCompatibleRenderCrosshair(CustomGui.java:151)
+	at com.vicmatskiv.weaponlib.compatibility.CompatibleGui.onRenderCrosshair(CompatibleGui.java:18)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_247_CompatibleGui_onRenderCrosshair_Pre.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:185)
+	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:884)
+	at net.minecraftforge.client.GuiIngameForge.renderCrosshairs(GuiIngameForge.java:215)
+	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:146)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1381)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1076)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.vicmatskiv.weaponlib.PlayerWeaponInstance.getWeapon(PlayerWeaponInstance.java:195)
+	at com.vicmatskiv.weaponlib.CustomGui.getDefaultWeaponMessage(CustomGui.java:303)
+	at com.vicmatskiv.weaponlib.CustomGui.onCompatibleRenderCrosshair(CustomGui.java:151)
+	at com.vicmatskiv.weaponlib.compatibility.CompatibleGui.onRenderCrosshair(CompatibleGui.java:18)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_247_CompatibleGui_onRenderCrosshair_Pre.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:185)
+	at net.minecraftforge.client.GuiIngameForge.pre(GuiIngameForge.java:884)
+	at net.minecraftforge.client.GuiIngameForge.renderCrosshairs(GuiIngameForge.java:215)
+	at net.minecraftforge.client.GuiIngameForge.func_175180_a(GuiIngameForge.java:146)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Carrucan'/384, l='MpServer', x=-114.26, y=95.50, z=396.70]]
+	Chunk stats: MultiplayerChunkCache: 0, 0
+	Level seed: 0
+	Level generator: ID 06 - RTG, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-33,64,21), Chunk: (at 15,4,5 in -3,1; contains blocks -48,0,16 to -33,255,31), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 70800384 game time, 121153 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 2 total; [EntityPlayerSP['Carrucan'/384, l='MpServer', x=-114.26, y=95.50, z=396.70], MagicEntity['unknown'/2, l='MpServer', x=-114.39, y=96.72, z=398.65]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:529)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2660)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:400)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_25, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1455238752 bytes (1387 MB) / 4241293312 bytes (4044 MB) up to 4241293312 bytes (4044 MB)
+	JVM Flags: 6 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx4G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn512M
+	IntCache: cache: 0, tcache: 0, allocated: 9, tallocated: 61
+	FML: MCP 9.32 Powered by Forge 12.18.3.2185 Optifine OptiFine_1.10.2_HD_U_E7 33 mods loaded, 33 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.10.2-12.18.3.2185.jar) 
+	UCHIJA	Forge{12.18.3.2185} [Minecraft Forge] (forge-1.10.2-12.18.3.2185.jar) 
+	UCHIJA	NotEnoughItems{2.1.2.164} [Not Enough Items] (NotEnoughItems-1.10.2-2.1.2.164-universal.jar) 
+	UCHIJA	OpenComputers|Core{1.6.0.4} [OpenComputers (Core)] (minecraft.jar) 
+	UCHIJA	craftstudioapi{0.3.0-beta} [CraftStudio API] (CraftStudioAPI-universal-0.3.0.87-mc1.10.2-beta.jar) 
+	UCHIJA	animania{1.4.7} [Animania] (animania-1.10.2-1.4.8.jar) 
+	UCHIJA	betterfoliage{2.1.11} [Better Foliage] (BetterFoliage-MC1.10.2-2.1.11.jar) 
+	UCHIJA	CodeChickenLib{2.4.3.124} [CodeChicken Lib] (CodeChickenLib-1.10.2-2.4.3.124-universal.jar) 
+	UCHIJA	CodeChickenCore{2.3.5.91} [CodeChicken Core] (CodeChickenCore-1.10.2-2.3.5.91-universal.jar) 
+	UCHIJA	compatlayer{0.3.1} [compatlayer] (compatlayer-1.10-0.3.1.jar) 
+	UCHIJA	cookingforblockheads{4.2.39} [Cooking for Blockheads] (CookingForBlockheads_1.10.2-4.2.39.jar) 
+	UCHIJA	custommainmenu{2.0.5} [Custom Main Menu] (CustomMainMenu-MC1.10.2-2.0.5.jar) 
+	UCHIJA	PTRModelLib{1.0.0} [PTRModelLib] (Decocraft-2.3.6.1_1.10.2.jar) 
+	UCHIJA	props{2.3.6.1} [Decocraft] (Decocraft-2.3.6.1_1.10.2.jar) 
+	UCHIJA	wizardry{2.1.2} [Electroblob's Wizardry] (ElectroblobsWizardry2.1.2MC1.10.2.jar) 
+	UCHIJA	hempfarmer{1.7.4} [HempFarmer] (hempfarmer-1.10.2-1.7.4.jar) 
+	UCHIJA	immersiveengineering{0.10-52} [Immersive Engineering] (ImmersiveEngineering-0.10-52.jar) 
+	UCHIJA	trackapi{1.1} [Track API] (TrackAPI-1.1_1.10.jar) 
+	UCHIJA	immersiverailroading{1.2.0} [Immersive Railroading] (ImmersiveRailroading-1.2.0_1.10.jar) 
+	UCHIJA	incontrol{1.0.0} [InControl] (incontrol-1.0.0.jar) 
+	UCHIJA	InventoryPets{1.4.9} [Inventory Pets] (inventorypets-1.10-1.4.9.jar) 
+	UCHIJA	JEI{3.13.6.387} [Just Enough Items] (jei_1.10.2-3.13.6.387.jar) 
+	UCHIJA	mob_properties{1.0.3} [Mob Properties] (mob_properties-1.10.2-1.0.3.jar) 
+	UCHIJA	mw{1.10.3} [Modern Warfare] (mw-1.10.3_mc1.10.2.jar) 
+	UCHIJA	OpenComputers{1.6.0.4} [OpenComputers] (OpenComputers-MC1.10.2-1.6.0.4.jar) 
+	UCHIJA	harvestcraft{1.9.4-1.10.2g} [Pam's HarvestCraft] (Pam's HarvestCraft 1.9.4-1.10.2h.jar) 
+	UCHIJA	railcraft{10.0.1} [Railcraft] (Railcraft_1.10.2-10.0.1.jar) 
+	UCHIJA	ResourceLoader{1.5.1} [Resource Loader] (ResourceLoader-MC1.9.4-1.5.1.jar) 
+	UCHIJA	RTG{4.1.2.0} [Realistic Terrain Generation] (RTG-1.10.2-4.1.2.0.jar) 
+	UCHIJA	thedragonlib{1.10.2-1.3.1} [TheDragonLib] (thedragonlib-1.10.2-1.0.3.1.jar) 
+	UCHIJA	Waila{1.7.0} [Waila] (Waila-1.7.0-B3_1.9.4.jar) 
+	UCHIJA	worldedit{6.1.4} [WorldEdit] (worldedit-forge-mc1.10.2-6.1.4-dist.jar) 
+	Loaded coremods (and transformers): 
+CCLCorePlugin (CodeChickenLib-1.10.2-2.2.3.57-universal.jar)
+  codechicken.lib.asm.ClassHeirachyManager
+  codechicken.lib.asm.RenderHookTransformer
+LoadingPlugin (ResourceLoader-MC1.9.4-1.5.1.jar)
+  lumien.resourceloader.asm.ClassTransformer
+TransformerLoader (OpenComputers-MC1.10.2-1.6.0.4.jar)
+  li.cil.oc.common.asm.ClassTransformer
+NEICorePlugin (NotEnoughItems-1.10.2-2.1.2.164-universal.jar)
+  codechicken.nei.asm.NEITransformer
+BetterFoliageLoader (BetterFoliage-MC1.10.2-2.1.11.jar)
+  mods.betterfoliage.loader.BetterFoliageTransformer
+CCLCorePlugin (CodeChickenLib-1.10.2-2.4.3.124-universal.jar)
+  codechicken.lib.asm.ClassHeirachyManager
+  codechicken.lib.asm.RenderHookTransformer
+DepLoader (CodeChickenCore-1.10.2-2.3.5.91-universal.jar)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 391.35' Renderer: 'GeForce GTX 1080 Ti/PCIe/SSE2'
+	Launched Version: 1.10.2-forge1.10.2-12.18.3.2185
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1080 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 391.35, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i5-4430 CPU @ 3.00GHz
+	OptiFine Version: OptiFine_1.10.2_HD_U_E7
+	Render Distance Chunks: 58
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: Wisdom-Shaders-V3.2-Release-Build3230.zip
+	OpenGlVersion: 4.6.0 NVIDIA 391.35
+	OpenGlRenderer: GeForce GTX 1080 Ti/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 4

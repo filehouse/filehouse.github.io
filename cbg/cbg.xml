@@ -1,0 +1,2947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="cbg" abstract="false" name="Carrucan&apos;s Battlegrounds" newsUrl="about:blank" version="1.10.2" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.10.2&amp;forge=12.18.3.2185">forge</Import>
+		<Module name="2018-04-30-2.log" id="---.log" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/logs/2018-04-30-2.log.gz</URL>
+			<Size>21984</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b6224d1bb45307af9bae769fc43c6c7d</MD5>
+		</Module>
+		<Module name="Animania" id="animania" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/animania-1.10.2-1.4.8.jar</URL>
+			<Size>9512353</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e3cfbfad91c50bc882633e748080bf90</MD5>
+			<Meta>
+				<credits>Game concept, creative direction, models, textures, animation, sound design, and development by RazzleberryFox, Purplicious_Cow, cy4n, MrTschipp, ZeAmateis, Timmypote, vroulas, and TheJurassicAlien</credits>
+				<description>Immersive and realistic animals in Minecraft, with improved models, textures, animation, behaviors, and drops.</description>
+				<version>1.4.8</version>
+				<url></url>
+				<authors>RazzleberryFox, Purplicious_Cow, cy4n, MrTschipp, ZeAmateis, Timmypote, vroulas, and TheJurassicAlien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/animania.cfg</URL>
+				<Path>config/animania.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8ced9bbfdeb42fbdb1498031ee5882fb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/lamb_merino.json</URL>
+				<Path>config/MobProperties/animania/lamb_merino.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7b488d1cda02d1127a2c1e1af2b78b8d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ewe_merino.json</URL>
+				<Path>config/MobProperties/animania/ewe_merino.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d219d31aefc5e0d6ed8bd7a6a47c98eb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HogDuroc.json</URL>
+				<Path>config/MobProperties/animania/HogDuroc.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a725d3ad49d84165b04805c4f05fdb32</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/CowLonghorn.json</URL>
+				<Path>config/MobProperties/animania/CowLonghorn.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fe2eedbf196a0caece05fa11ceeb2ddd</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ram_dorset.json</URL>
+				<Path>config/MobProperties/animania/ram_dorset.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0246932a92791f40062459cc7d62c2f9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/CowAngus.json</URL>
+				<Path>config/MobProperties/animania/CowAngus.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bc52d4a4012cec2d1d3480c70f7c06db</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/lamb_friesian.json</URL>
+				<Path>config/MobProperties/animania/lamb_friesian.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>493daf6a5af526608b465019d9d7008e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/lamb_jacob.json</URL>
+				<Path>config/MobProperties/animania/lamb_jacob.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>95670e7bc1f4e23fb05ce741430fc83a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/CalfHereford.json</URL>
+				<Path>config/MobProperties/animania/CalfHereford.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>25020a3e27ef9a08056d9400b1b80957</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/Toad.json</URL>
+				<Path>config/MobProperties/animania/Toad.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>897b163f2a54697a7bea51eae95a542c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeachickWhite.json</URL>
+				<Path>config/MobProperties/animania/PeachickWhite.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>17138a79d11b5d24a72c28894ed3c743</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PigletLargeBlack.json</URL>
+				<Path>config/MobProperties/animania/PigletLargeBlack.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6bb08a49dd9a2ecf8aee998f4f168b8b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ram_jacob.json</URL>
+				<Path>config/MobProperties/animania/ram_jacob.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f979337f381533d8393d65342e5ca66d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/FoalDraftHorse.json</URL>
+				<Path>config/MobProperties/animania/FoalDraftHorse.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>998feb13d9eb053bb6e318b61e1f05bb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeachickPeach.json</URL>
+				<Path>config/MobProperties/animania/PeachickPeach.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a11df4854784816cb2a5163e13d62373</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kid_nigerian_dwarf.json</URL>
+				<Path>config/MobProperties/animania/kid_nigerian_dwarf.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>eddd12c13df006c5dc263e3d921a1fa9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_nigerian_dwarf.json</URL>
+				<Path>config/MobProperties/animania/doe_nigerian_dwarf.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f631a291c3ad5c840d03a79cc7eae968</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/BullAngus.json</URL>
+				<Path>config/MobProperties/animania/BullAngus.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>be910850c238526177c97b41eb6eedf7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/Hamster.json</URL>
+				<Path>config/MobProperties/animania/Hamster.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1e3f920d11100e9f5abd3793c093a66c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kit_dutch.json</URL>
+				<Path>config/MobProperties/animania/kit_dutch.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>433f6496f3a59fe6aa4affa5c6016ead</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeafowlPurple.json</URL>
+				<Path>config/MobProperties/animania/PeafowlPurple.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>64ec8ae5e63f8e334c002382d7f82ad3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PigletDuroc.json</URL>
+				<Path>config/MobProperties/animania/PigletDuroc.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e5cebf8b60cd4514a95637936ffd0cf5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/CowHereford.json</URL>
+				<Path>config/MobProperties/animania/CowHereford.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c8ed76bbcf9fbcf7786afe54acfac359</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_rex.json</URL>
+				<Path>config/MobProperties/animania/buck_rex.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3863aefc7663b5326afbda403481f002</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_cottontail.json</URL>
+				<Path>config/MobProperties/animania/buck_cottontail.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>df0ed06adfbd4453128032dcb5e9ba7b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/RoosterWyandotte.json</URL>
+				<Path>config/MobProperties/animania/RoosterWyandotte.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8225fa5dbb2a7c9d75daa0f765288074</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_lop.json</URL>
+				<Path>config/MobProperties/animania/buck_lop.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>376fce696494f768976c1d32d4329c97</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_kinder.json</URL>
+				<Path>config/MobProperties/animania/doe_kinder.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>14c97acd209e11b4da344663bd0e40a6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kid_alpine.json</URL>
+				<Path>config/MobProperties/animania/kid_alpine.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>26d03a94c5e7105095973db73c1febd5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_alpine.json</URL>
+				<Path>config/MobProperties/animania/doe_alpine.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dc86b836215fb509624c04452126b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ChickRhodeIslandRed.json</URL>
+				<Path>config/MobProperties/animania/ChickRhodeIslandRed.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>45b9c00d686456669aa78591a60862f4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/CalfLonghorn.json</URL>
+				<Path>config/MobProperties/animania/CalfLonghorn.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>31fd0a532814c2ac35804d816f1a5b31</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeachickPurple.json</URL>
+				<Path>config/MobProperties/animania/PeachickPurple.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>babf1be0dc0179fbea21fa945216af7e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kid_kinder.json</URL>
+				<Path>config/MobProperties/animania/kid_kinder.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>47cfb61fe705a1c3b2f9f172226762ca</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kit_new_zealand.json</URL>
+				<Path>config/MobProperties/animania/kit_new_zealand.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ea0b6720599c2c7e3d68681b1ed57c2e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kid_kiko.json</URL>
+				<Path>config/MobProperties/animania/kid_kiko.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>15688b4343743d0ffc3bba74bb5f51b9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_fainting.json</URL>
+				<Path>config/MobProperties/animania/doe_fainting.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c090330c55143c6f28fe142f258b4ff5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ChickLeghorn.json</URL>
+				<Path>config/MobProperties/animania/ChickLeghorn.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5e3d1660d8bd75374b4e39ad56a14763</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ewe_dorper.json</URL>
+				<Path>config/MobProperties/animania/ewe_dorper.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>23d2f7b2cb9ee29845035a033d4a9e66</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_havana.json</URL>
+				<Path>config/MobProperties/animania/buck_havana.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6abc4421459d348328596e2009bc6fa5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/lamb_dorper.json</URL>
+				<Path>config/MobProperties/animania/lamb_dorper.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>cab8571242fffc2540433ae1fd76bd2e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_jack.json</URL>
+				<Path>config/MobProperties/animania/buck_jack.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>473de822ff4ed1625c02ce2714b623cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_kiko.json</URL>
+				<Path>config/MobProperties/animania/buck_kiko.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7d39e3ad79b9be5e466f330c4c54c4df</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kid_angora.json</URL>
+				<Path>config/MobProperties/animania/kid_angora.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2de9402d5d51dc1df269989d4f8d7139</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeafowlTaupe.json</URL>
+				<Path>config/MobProperties/animania/PeafowlTaupe.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>78de981b6b827b839f2f47b337a19f02</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ewe_suffolk.json</URL>
+				<Path>config/MobProperties/animania/ewe_suffolk.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>847293d3938e08c88947c020b72bf3f6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeafowlOpal.json</URL>
+				<Path>config/MobProperties/animania/PeafowlOpal.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9e9ba0343ba23b738363d0fc32b45983</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/CowFriesian.json</URL>
+				<Path>config/MobProperties/animania/CowFriesian.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>957385e61fd4d6e1cc6d227c1480d5be</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeachickCharcoal.json</URL>
+				<Path>config/MobProperties/animania/PeachickCharcoal.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a2d107e335aa2afb0ce0143a756efaf5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_nigerian_dwarf.json</URL>
+				<Path>config/MobProperties/animania/buck_nigerian_dwarf.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fe12a228d58606b3459efe332433cd93</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ram_suffolk.json</URL>
+				<Path>config/MobProperties/animania/ram_suffolk.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9143530f730e9d29925392f55301e523</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/lamb_suffolk.json</URL>
+				<Path>config/MobProperties/animania/lamb_suffolk.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b53e749c1569c380b71b236dbec230be</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/FerretWhite.json</URL>
+				<Path>config/MobProperties/animania/FerretWhite.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>668cdacfc18ab035ea569c07bc80189e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HogHampshire.json</URL>
+				<Path>config/MobProperties/animania/HogHampshire.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dd7536df1c48ef5892c606461064e671</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/Hedgehog.json</URL>
+				<Path>config/MobProperties/animania/Hedgehog.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>128ceede7e602ec3b8055e73c3efa747</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/SowLargeWhite.json</URL>
+				<Path>config/MobProperties/animania/SowLargeWhite.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dc84582295a6b7231982447ecd14d662</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_angora.json</URL>
+				<Path>config/MobProperties/animania/doe_angora.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>022ca4ccb6c359c65b5dbdd4ee5c60dd</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/CalfHolstein.json</URL>
+				<Path>config/MobProperties/animania/CalfHolstein.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e7f58ca73821fe446370d1ff505ee4c5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PigletHampshire.json</URL>
+				<Path>config/MobProperties/animania/PigletHampshire.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f84c059b9d1ed408dbad3197d92309b0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/RoosterLeghorn.json</URL>
+				<Path>config/MobProperties/animania/RoosterLeghorn.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8c291aefa6640d427bd62b78760e96e2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeacockWhite.json</URL>
+				<Path>config/MobProperties/animania/PeacockWhite.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9d8577405880a4fdc47c3506c06c276b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kit_lop.json</URL>
+				<Path>config/MobProperties/animania/kit_lop.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b138d98acb78793913afb4683004934e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HenLeghorn.json</URL>
+				<Path>config/MobProperties/animania/HenLeghorn.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f61ed27fa82e7233139eaae9aec4f062</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kit_rex.json</URL>
+				<Path>config/MobProperties/animania/kit_rex.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>69dda2fb91cf9d092bcb4afae7bdbd24</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeachickBlue.json</URL>
+				<Path>config/MobProperties/animania/PeachickBlue.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>44f7f5b97ad5b986380289752783d35d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ChickOrpington.json</URL>
+				<Path>config/MobProperties/animania/ChickOrpington.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>004f7cdb5565ec717a23c09e9dcd7173</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeacockPeach.json</URL>
+				<Path>config/MobProperties/animania/PeacockPeach.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ddcf3172c8bee756000c46bf2df76b3b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeacockOpal.json</URL>
+				<Path>config/MobProperties/animania/PeacockOpal.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>37f081074b67477f308040f4c0e20443</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/Dart_Frog.json</URL>
+				<Path>config/MobProperties/animania/Dart_Frog.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4e45e835a31162ba1ca88b202f85f306</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeacockPurple.json</URL>
+				<Path>config/MobProperties/animania/PeacockPurple.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>696c2a6e8c0e8d126ccee395d9137f97</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HogOldSpot.json</URL>
+				<Path>config/MobProperties/animania/HogOldSpot.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6a750a5523e3bb7b12a497aeeef1f238</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kit_chinchilla.json</URL>
+				<Path>config/MobProperties/animania/kit_chinchilla.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>10a6c16ece0d90ab4aade323ae1b40da</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ChickPlymouthRock.json</URL>
+				<Path>config/MobProperties/animania/ChickPlymouthRock.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>220228e554e33b346b6e8c363ab30450</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeacockCharcoal.json</URL>
+				<Path>config/MobProperties/animania/PeacockCharcoal.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>701d2dceb093c93873244e7a31ed54ab</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HogLargeBlack.json</URL>
+				<Path>config/MobProperties/animania/HogLargeBlack.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>698ab6f00a4283927eb72419f8208c72</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ewe_friesian.json</URL>
+				<Path>config/MobProperties/animania/ewe_friesian.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>98a3f78c2961cb6d8fdd8b093e6ed601</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/SowOldSpot.json</URL>
+				<Path>config/MobProperties/animania/SowOldSpot.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d39ba1d9ca9082738eb17b34b17f56f9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeafowlCharcoal.json</URL>
+				<Path>config/MobProperties/animania/PeafowlCharcoal.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4cf60a69e36f4b2551bfbd61632b43d7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/CowHolstein.json</URL>
+				<Path>config/MobProperties/animania/CowHolstein.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>29ee28c26e75cda2b3318fd7f5580f56</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/CalfFriesian.json</URL>
+				<Path>config/MobProperties/animania/CalfFriesian.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fe266d807a2b428268dbc57950a74bee</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/FerretGrey.json</URL>
+				<Path>config/MobProperties/animania/FerretGrey.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8556bf1e1e8e71336811736c9ca7cbe3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/RoosterRhodeIslandRed.json</URL>
+				<Path>config/MobProperties/animania/RoosterRhodeIslandRed.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>646f126fbeb8f2e4627a3cc977aaaec5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/SowDuroc.json</URL>
+				<Path>config/MobProperties/animania/SowDuroc.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8f1888607e4657f2f5941aa942be0c82</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PigletYorkshire.json</URL>
+				<Path>config/MobProperties/animania/PigletYorkshire.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>478c24ea7ff71f627fcfadc4f9a8c65d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/RoosterPlymouthRock.json</URL>
+				<Path>config/MobProperties/animania/RoosterPlymouthRock.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>19061d564d87a100a305fb30272db99d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HogYorkshire.json</URL>
+				<Path>config/MobProperties/animania/HogYorkshire.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d7125ed4371d321740e1ecebeb5ea654</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HenOrpington.json</URL>
+				<Path>config/MobProperties/animania/HenOrpington.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>91a07005e7606b461016962cc2c188a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_cottontail.json</URL>
+				<Path>config/MobProperties/animania/doe_cottontail.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>238466298de5684fba6ab9d622c1e076</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/Frog.json</URL>
+				<Path>config/MobProperties/animania/Frog.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bf772fb303378efb4fca6c51348f7a58</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ram_friesian.json</URL>
+				<Path>config/MobProperties/animania/ram_friesian.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>182d740c217b126e9bd4435ed5e0ab81</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/StallionDraftHorse.json</URL>
+				<Path>config/MobProperties/animania/StallionDraftHorse.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>82d910efc666270cdf51a6e21dc02583</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/BullFriesian.json</URL>
+				<Path>config/MobProperties/animania/BullFriesian.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6626811ab710c0650f78da584b705b39</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/CalfAngus.json</URL>
+				<Path>config/MobProperties/animania/CalfAngus.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fb1d8f84798919698ff53cfd1c8668d8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/RoosterOrpington.json</URL>
+				<Path>config/MobProperties/animania/RoosterOrpington.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>922ff4bbc880c164041a6f004e036506</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kid_pygmy.json</URL>
+				<Path>config/MobProperties/animania/kid_pygmy.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c6eeed88247388b90090a1cd32156f4d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_dutch.json</URL>
+				<Path>config/MobProperties/animania/doe_dutch.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9d2bd7d4f92443d5ce9426adc1e150a5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/BullHolstein.json</URL>
+				<Path>config/MobProperties/animania/BullHolstein.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>daccfcffe34dff3c86ee319079d664bc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/MareDraftHorse.json</URL>
+				<Path>config/MobProperties/animania/MareDraftHorse.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f5608bb3a0aadcb4ef3a34eaead63bda</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_alpine.json</URL>
+				<Path>config/MobProperties/animania/buck_alpine.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fc478dfb1eeb3a6faa2ee50aa3ec252a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ewe_jacob.json</URL>
+				<Path>config/MobProperties/animania/ewe_jacob.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>87c5b018bb6cfbd37ef6a3abfc562a76</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeacockTaupe.json</URL>
+				<Path>config/MobProperties/animania/PeacockTaupe.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>02f6f4147f627af4ec886a1564e1e148</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_kinder.json</URL>
+				<Path>config/MobProperties/animania/buck_kinder.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>aa1402d308a37ae08976e0afa2f1b3af</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_havana.json</URL>
+				<Path>config/MobProperties/animania/doe_havana.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8ec7e3cb3a10d1f51cd309d358ad3600</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_dutch.json</URL>
+				<Path>config/MobProperties/animania/buck_dutch.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2db018810ba90f762195f7bb26721ab3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HenPlymouthRock.json</URL>
+				<Path>config/MobProperties/animania/HenPlymouthRock.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>47fec1dad03f8787c0556f0b012e971a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_chinchilla.json</URL>
+				<Path>config/MobProperties/animania/buck_chinchilla.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1b218dec7d4a769dbda3de7122f58461</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeafowlPeach.json</URL>
+				<Path>config/MobProperties/animania/PeafowlPeach.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>83e9707ac20829c6caa81a4e970c959a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeafowlWhite.json</URL>
+				<Path>config/MobProperties/animania/PeafowlWhite.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>09e3306b9a2110dd08510491819bbc2b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PigletOldSpot.json</URL>
+				<Path>config/MobProperties/animania/PigletOldSpot.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a071731ad172c331919d370f6343435f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PigletLargeWhite.json</URL>
+				<Path>config/MobProperties/animania/PigletLargeWhite.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1110772fb03a0e268395d1812dc6f6ca</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kit_cottontail.json</URL>
+				<Path>config/MobProperties/animania/kit_cottontail.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b44e98c4f65ae5f207c6e44bdbeb15db</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_angora.json</URL>
+				<Path>config/MobProperties/animania/buck_angora.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6fb7fbf4936ee3b5e56f1d702f5dfcf4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/BullLonghorn.json</URL>
+				<Path>config/MobProperties/animania/BullLonghorn.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bafd355aa6b41c371cb06c00501ab0e2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/lamb_dorset.json</URL>
+				<Path>config/MobProperties/animania/lamb_dorset.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>71199d3dfb19da9e185d17937ff0c5f6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/SowHampshire.json</URL>
+				<Path>config/MobProperties/animania/SowHampshire.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>926af30b9a4a9365dc6c0d74a743dcae</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ewe_dorset.json</URL>
+				<Path>config/MobProperties/animania/ewe_dorset.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>174cb5947f40c607d410522fc5662500</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HedgehogAlbino.json</URL>
+				<Path>config/MobProperties/animania/HedgehogAlbino.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>97732d44f6ca3ea27e8b8cbf0313ef97</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ram_merino.json</URL>
+				<Path>config/MobProperties/animania/ram_merino.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>915ed67bda5acfd87b43d524de5b1968</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HenWyandotte.json</URL>
+				<Path>config/MobProperties/animania/HenWyandotte.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d231132f82da3c9d79c99d1ec63d6570</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_pygmy.json</URL>
+				<Path>config/MobProperties/animania/buck_pygmy.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1182cc3dd449f44b00ce66c276ce4605</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HogLargeWhite.json</URL>
+				<Path>config/MobProperties/animania/HogLargeWhite.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5fcb4a614251c7a48bd93361b94376d7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kit_jack.json</URL>
+				<Path>config/MobProperties/animania/kit_jack.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8adf22a63ce2c43a4e9512ab6681c200</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_lop.json</URL>
+				<Path>config/MobProperties/animania/doe_lop.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>125b590330c13f931691e035b1f1b4d7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_rex.json</URL>
+				<Path>config/MobProperties/animania/doe_rex.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a339189ebc199c4319436619d65b377e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeacockBlue.json</URL>
+				<Path>config/MobProperties/animania/PeacockBlue.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>cdee3cd50f7d8f0098538519de913800</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/BullHereford.json</URL>
+				<Path>config/MobProperties/animania/BullHereford.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d1c1a4a310eeb088655aa4d95856fa3d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/SowLargeBlack.json</URL>
+				<Path>config/MobProperties/animania/SowLargeBlack.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>861124d4b6708d08bd335407eeb509f2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_pygmy.json</URL>
+				<Path>config/MobProperties/animania/doe_pygmy.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1aab95e5a23c1208092bb7aad086abd2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ChickWyandotte.json</URL>
+				<Path>config/MobProperties/animania/ChickWyandotte.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>75fcf80761d0172f22dee26c57a0aa5f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_new_zealand.json</URL>
+				<Path>config/MobProperties/animania/buck_new_zealand.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4606f61476e112872c3caa6d24b7c9f5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_chinchilla.json</URL>
+				<Path>config/MobProperties/animania/doe_chinchilla.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>088214712430b88ac8d03de6b940abe1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kit_havana.json</URL>
+				<Path>config/MobProperties/animania/kit_havana.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5368d075af4d002b960c00935bfaaf99</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/HenRhodeIslandRed.json</URL>
+				<Path>config/MobProperties/animania/HenRhodeIslandRed.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>06697971fce579a6ec4149f06aa4ccf6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeachickOpal.json</URL>
+				<Path>config/MobProperties/animania/PeachickOpal.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ea786fc045b8d809dfafa3f88108f283</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/kid_fainting.json</URL>
+				<Path>config/MobProperties/animania/kid_fainting.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f77e97c65ec2d8b2b2106ae5a90b26df</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeachickTaupe.json</URL>
+				<Path>config/MobProperties/animania/PeachickTaupe.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8f49e599c8e7e0364114cb2b1b7ff618</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_kiko.json</URL>
+				<Path>config/MobProperties/animania/doe_kiko.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>354a156c19704a74312d9101b22cb38a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/ram_dorper.json</URL>
+				<Path>config/MobProperties/animania/ram_dorper.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f573e02ea7de674275a585f6553204ea</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_jack.json</URL>
+				<Path>config/MobProperties/animania/doe_jack.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0604b450ede8dd0f03d994d820a68ea1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/PeafowlBlue.json</URL>
+				<Path>config/MobProperties/animania/PeafowlBlue.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d3e4ce785b9a1205bb3073155431e389</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/buck_fainting.json</URL>
+				<Path>config/MobProperties/animania/buck_fainting.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4867dda58cd77fa15fec5450d3e841ca</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/SowYorkshire.json</URL>
+				<Path>config/MobProperties/animania/SowYorkshire.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4119edafc5415afc8afa61b7e4fc09fc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/animania/doe_new_zealand.json</URL>
+				<Path>config/MobProperties/animania/doe_new_zealand.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>cded069ff8b9e6b78c826d97c5f7f324</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Better Foliage" id="betterfoliage" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/BetterFoliage-MC1.10.2-2.1.11.jar</URL>
+			<Size>4674934</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>52f96a16742b81ee90b81a3b0bbfd68f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Leafier leaves and grassier grass</description>
+				<version>2.1.11</version>
+				<url></url>
+				<authors>octarine-noise (code), Meringue (textures)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/betterfoliage.cfg</URL>
+				<Path>config/betterfoliage.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>99b9aa746613296250a4adc35a27d749</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Better Questing" id="betterquesting" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/BetterQuesting-2.3.234.jar</URL>
+			<Size>1078488</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6e0276b7629530311de03183bfde7774</MD5>
+			<Meta>
+				<credits>Thank you Patreons for all your support &lt;3</credits>
+				<description>A new and improved questing mod for Minecraft pack creators</description>
+				<version>2.3.234</version>
+				<url></url>
+				<authors>Funwayguy</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/betterquesting.cfg</URL>
+				<Path>config/betterquesting.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ee31d5071af6bb0c839d2bd6b848d940</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Better World Roof C" id="BWRoofC" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/Roof-Mod-1.4.7.zip</URL>
+			<Size>159364</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6084dc7d7c73de29e24fa691d2e965d4</MD5>
+			<Meta>
+				<credits>By Kaevator, continued by MetaDark, changes by WiNeTel</credits>
+				<description></description>
+				<version>1.61</version>
+				<url>http://www.minecraftforum.net/topic/1486452-</url>
+				<authors>WiNeTel, MetaDark, Kaevator</authors>
+			</Meta>
+		</Module>
+		<Module name="cbg" id="cbg" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/cbg.xml</URL>
+			<Size>787</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6dd0d6d8a427d0e441043713ce6339ce</MD5>
+		</Module>
+		<Module name="CodeChicken Core" id="CodeChickenCore" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/CodeChickenCore-1.10.2-2.3.5.91-universal.jar</URL>
+			<Size>111075</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>82a30efa8470f7b670102f278784d5e8</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Base common code for all chickenbones mods.</description>
+				<version>2.3.5.91</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/CodeChickenCore.cfg</URL>
+				<Path>config/CodeChickenCore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a26b97354c54ca925e86b54edfbc79aa</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CodeChicken Lib" id="CodeChickenLib" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/CodeChickenLib-1.10.2-2.4.3.124-universal.jar</URL>
+			<Size>503931</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f6d847e32da08003c9d37a89800f4d28</MD5>
+			<Meta>
+				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<version>2.4.3.124</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/CodeChickenLib-1.11.2-3.0.0.328-universal.jar</URL>
+			<ModPath>mods/1.11.2/CodeChickenLib-1.11.2-3.0.0.328-universal.jar</ModPath>
+			<Size>638244</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ac931577015d3ea21d1b3f872aec771d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<version>3.0.0.328</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="CodeChickenLib-1.10.2-2.2.3.57-universal" id="CodeChickenLib-..-...-universal" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.10.2/CodeChickenLib-1.10.2-2.2.3.57-universal.jar</URL>
+			<ModPath>mods/1.10.2/CodeChickenLib-1.10.2-2.2.3.57-universal.jar</ModPath>
+			<Size>432851</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f302519f51b92b59c718c3f43fc16f25</MD5>
+		</Module>
+		<Module name="compatlayer" id="compatlayer" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/compatlayer-1.10-0.3.1.jar</URL>
+			<Size>41053</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>077f555b563fc1ced1309199c2c3f078</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Compatibility layer to make migrating between different vanilla/forge versions easier</description>
+				<version>1.10-0.3.1</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="Cooking for Blockheads" id="cookingforblockheads" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/CookingForBlockheads_1.11.2-5.3.27.jar</URL>
+			<ModPath>mods/1.11.2/CookingForBlockheads_1.11.2-5.3.27.jar</ModPath>
+			<Size>501159</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6dfde7396ff3498427ad578e5e6cd9f3</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>Adds a cooking book and multiblock kitchens that only shows recipes you can make with what you currently have in your inventory.</description>
+				<version>5.3.27</version>
+				<url></url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/cookingforblockheads.cfg</URL>
+				<Path>config/cookingforblockheads.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ab75e7f3c129bae6b0ada73934b586e9</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CraftStudio API" id="craftstudioapi" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/CraftStudioAPI-universal-0.3.0.87-mc1.10.2-beta.jar</URL>
+			<Size>86545</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>73261826738ad937ddbf2527454657aa</MD5>
+			<Meta>
+				<credits>See https://github.com/Leviathan-Studio/CraftStudioAPI/blob/master/CREDITS.md</credits>
+				<description>A CraftStudio API for models/animations support in Minecraft</description>
+				<version>0.3.0</version>
+				<url></url>
+				<authors>ZeAmateis, Timmypote, Elisee, IncubeSupreme</authors>
+			</Meta>
+		</Module>
+		<Module name="crash-2018-04-25_20.39.16-client" id="crash---_..-client" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/crash-reports/crash-2018-04-25_20.39.16-client.txt</URL>
+			<Size>8055</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5f38a6a58f62f699f5b0ec2098e77cf9</MD5>
+		</Module>
+		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/CustomMainMenu-MC1.11.2-2.0.5.jar</URL>
+			<ModPath>mods/1.11.2/CustomMainMenu-MC1.11.2-2.0.5.jar</ModPath>
+			<Size>173980</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b9e496ea0205ec410fa308bebc2d0c5a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows you to edit the mainmenu using json</description>
+				<version>2.0.5</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/CustomMainMenu/mainmenu.json</URL>
+				<Path>config/CustomMainMenu/mainmenu.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d77b93a52fa79a6f47a0be0e930b7492</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CustomNPCs" id="customnpcs" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/CustomNPCs_1.10.2(21jul17).jar</URL>
+			<Size>11373722</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>99339144fade8ce0bee8f041b39e1c60</MD5>
+			<Meta>
+				<credits>A lot of people, see the list at the forum</credits>
+				<description>The Custom Npcs mod lets you create your own npcs and lets you customize them how you want</description>
+				<version>1.10.2_beta</version>
+				<url>http://tinyurl.com/customnpcs</url>
+				<authors>Noppes</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcfurrymale.json</URL>
+				<Path>config/MobProperties/customnpcs/npcfurrymale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d248aabfaefbeab15636182802738ba1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcdwarfmale.json</URL>
+				<Path>config/MobProperties/customnpcs/npcdwarfmale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e06c9e5d62c050d01f4cacae26947b1f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcvillager.json</URL>
+				<Path>config/MobProperties/customnpcs/npcvillager.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>68a3c6079ffc2134da24474ca4dbf138</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcGolem.json</URL>
+				<Path>config/MobProperties/customnpcs/npcGolem.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9518e5be05a0df62699cbf262e633e7c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcorcfmale.json</URL>
+				<Path>config/MobProperties/customnpcs/npcorcfmale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>480143ba850191fdcb087acca8939a29</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/CustomNpc.json</URL>
+				<Path>config/MobProperties/customnpcs/CustomNpc.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2ca5a4c51047347e0b6f0d50f8c29db8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcelffemale.json</URL>
+				<Path>config/MobProperties/customnpcs/npcelffemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b3742028b4498ab5d0c8e4de0c8a3c12</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcdwarffemale.json</URL>
+				<Path>config/MobProperties/customnpcs/npcdwarffemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4fbdaad4d82e10fbb6e6975b110ef1ca</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcenderchibi.json</URL>
+				<Path>config/MobProperties/customnpcs/npcenderchibi.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>29aa4bde53ee1f52532d4ffc9fe589e3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcfurryfemale.json</URL>
+				<Path>config/MobProperties/customnpcs/npcfurryfemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>468e0d5f3334857c98cbcacb39deefca</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcEnderman.json</URL>
+				<Path>config/MobProperties/customnpcs/npcEnderman.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c4fc8b38427ebd4742e752b53addd38a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcnagamale.json</URL>
+				<Path>config/MobProperties/customnpcs/npcnagamale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d1cb854ec8056f4b7a6ba826af896d0b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/CustomNpc64x32.json</URL>
+				<Path>config/MobProperties/customnpcs/CustomNpc64x32.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3d4cffe5ec3866eae5e1845a5722e415</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcelfmale.json</URL>
+				<Path>config/MobProperties/customnpcs/npcelfmale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d5470901a8a1ad511b214daf9c574ddc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcskeleton.json</URL>
+				<Path>config/MobProperties/customnpcs/npcskeleton.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7f01b0a363293dd4ae4ed06f47c16ad3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcpony.json</URL>
+				<Path>config/MobProperties/customnpcs/npcpony.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>159311d0e07553d9596f347107bf29e5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npchumanmale.json</URL>
+				<Path>config/MobProperties/customnpcs/npchumanmale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>79386dc86c87088786370e0d32a114d5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npczombiefemale.json</URL>
+				<Path>config/MobProperties/customnpcs/npczombiefemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a021a3041f2f09002d0efe4fe460432e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npccrystal.json</URL>
+				<Path>config/MobProperties/customnpcs/npccrystal.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8a84b451f000525edd87f7908f976681</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npczombiemale.json</URL>
+				<Path>config/MobProperties/customnpcs/npczombiemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3228340cbf6a6d8593758f6103a5076f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcorcfemale.json</URL>
+				<Path>config/MobProperties/customnpcs/npcorcfemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d2bf787d930745ba53d3a37df72d17df</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/NpcSlime.json</URL>
+				<Path>config/MobProperties/customnpcs/NpcSlime.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>19d3032e9cadf94a893d8869a0118522</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npchumanfemale.json</URL>
+				<Path>config/MobProperties/customnpcs/npchumanfemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3edccf54138372736125ad4cc1e804af</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/npcnagafemale.json</URL>
+				<Path>config/MobProperties/customnpcs/npcnagafemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ebc819803dd5d84ca63c7da447272c8a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/customnpcs/NpcDragon.json</URL>
+				<Path>config/MobProperties/customnpcs/NpcDragon.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b6263975e88ebc3b14114de716704087</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CustomNPCs-1" id="CustomNPCs" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/logs/CustomNPCs-1.log</URL>
+			<Size>184</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>46035e7bd86b0608136baba8dbede074</MD5>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/CustomNpcs.cfg</URL>
+				<Path>config/CustomNpcs.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>858c37b7a0a3ed13835eb34e36526477</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CustomNPCs-latest" id="CustomNPCs-latest" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/logs/CustomNPCs-latest.log</URL>
+			<Size>184</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>15cd1a8abeb267c96282eb08e7f9d451</MD5>
+		</Module>
+		<Module name="Decocraft" id="props" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/Decocraft-2.5.2_1.11.2.jar</URL>
+			<ModPath>mods/1.11.2/Decocraft-2.5.2_1.11.2.jar</ModPath>
+			<Size>13974105</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>59faa95f4af4c34bde09d87aed015939</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds 500+ models to decorate your Minecraft world.</description>
+				<version>2.5.2_1.11.2</version>
+				<url>http://minecraft.curseforge.com/mc-mods/79616-decocraft2</url>
+				<authors>RazzleberryFox</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/decocraft.cfg</URL>
+				<Path>config/decocraft.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>25a7c6d272a6d8baadf5fcfca9e90461</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="derby" id="derby" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/derby.log</URL>
+			<Size>785</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b662e9098c43cc886d858181ad81c917</MD5>
+		</Module>
+		<Module name="Electroblob&apos;s Wizardry" id="wizardry" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/ElectroblobsWizardry2.1.2MC1.10.2.jar</URL>
+			<Size>2747040</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6b9199bc0d419f8ef74533a1cdd5aa48</MD5>
+			<Meta>
+				<credits>Made by Electroblob</credits>
+				<description>Electroblob&apos;s Wizardry adds an rpg-style system of magic spells to Minecraft with the aim of being as playable as possible. No crazy constructs, no perk trees, no complex recipes - simply find spell books, cast spells, and master the arcane!</description>
+				<version>2.1.2</version>
+				<url>https://minecraft.curseforge.com/projects/electroblobs-wizardry</url>
+				<authors>Electroblob</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/spirit_horse.json</URL>
+				<Path>config/MobProperties/wizardry/spirit_horse.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>60e165cacad7a71c6fbe87de16351873</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/phoenix.json</URL>
+				<Path>config/MobProperties/wizardry/phoenix.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0127f691306fb5f0e174ef940eb0f244</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/wizard.json</URL>
+				<Path>config/MobProperties/wizardry/wizard.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>744ca9aaa3b38bd75f6345894019351f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/silverfish_minion.json</URL>
+				<Path>config/MobProperties/wizardry/silverfish_minion.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8239752908781bc4895be41b104605e2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/ice_wraith.json</URL>
+				<Path>config/MobProperties/wizardry/ice_wraith.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8baf884b649a7667289d1ffc44a89a42</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/evil_wizard.json</URL>
+				<Path>config/MobProperties/wizardry/evil_wizard.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>75b031d411c6279197ef47644eab55e9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/lightning_wraith.json</URL>
+				<Path>config/MobProperties/wizardry/lightning_wraith.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9acf9b86b6271899ae4a219825c31862</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/spirit_wolf.json</URL>
+				<Path>config/MobProperties/wizardry/spirit_wolf.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d0d091eafc4dea6c45f86c9ff4088688</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/storm_elemental.json</URL>
+				<Path>config/MobProperties/wizardry/storm_elemental.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1ec937387b4194366199d8166cdd15b2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/zombie_minion.json</URL>
+				<Path>config/MobProperties/wizardry/zombie_minion.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e961735d834178ad1ec7d53911a21c39</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/shadow_wraith.json</URL>
+				<Path>config/MobProperties/wizardry/shadow_wraith.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>79a818d46aef45c8f43a78451e3d4a3b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/magic_slime.json</URL>
+				<Path>config/MobProperties/wizardry/magic_slime.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f4250570cdd02de96db4e0b946edd030</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/blaze_minion.json</URL>
+				<Path>config/MobProperties/wizardry/blaze_minion.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bd184bbe3af35cba91859cb806940811</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/spider_minion.json</URL>
+				<Path>config/MobProperties/wizardry/spider_minion.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>38890553fd0e95f2ff9cea4d966b4be3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/ice_giant.json</URL>
+				<Path>config/MobProperties/wizardry/ice_giant.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8ae4d604932880481b17419d127dce08</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/skeleton_minion.json</URL>
+				<Path>config/MobProperties/wizardry/skeleton_minion.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>70ad6d861a5b8557ced2a0341923c73d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/wizardry/decoy.json</URL>
+				<Path>config/MobProperties/wizardry/decoy.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>658c97f78b298517f13fb93bff67788d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/wizardry.cfg</URL>
+				<Path>config/wizardry.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3d1e9c6078f20f480010e338efa7f26d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="HempFarmer" id="hempfarmer" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/hempfarmer-1.10.2-1.7.4.jar</URL>
+			<Size>254700</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8d907bbeca4e240b8aa9b220a00675ae</MD5>
+			<Meta>
+				<credits>Thanks to the folks that made all this possible!</credits>
+				<description>Adds hemp to Minecraft!</description>
+				<version>1.7.4</version>
+				<url>http://minecraft.curseforge.com/projects/hempfarmer</url>
+				<authors>SeqSEE, EPICTHUNDERCAT</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/hempfarmer.cfg</URL>
+				<Path>config/hempfarmer.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2fabd30eaef042ea2586d8efab94200f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/ImmersiveEngineering-0.11-63.jar</URL>
+			<ModPath>mods/1.11.2/ImmersiveEngineering-0.11-63.jar</ModPath>
+			<Size>5313352</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>16bd6a0c1fc9501fc97b95bf2917af3b</MD5>
+			<Meta>
+				<credits>All the great other Git Contributors, and the nerds on IRC!</credits>
+				<description></description>
+				<version>0.11-63</version>
+				<url>https://github.com/BluSunrize/ImmersiveEngineering</url>
+				<authors>BluSunrize, Damien A.W. Hazard</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/immersiveengineering.cfg</URL>
+				<Path>config/immersiveengineering.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b82f521b57f8a328152852a1931d0956</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Immersive Petroleum" id="immersivepetroleum" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/immersivepetroleum-1.11.2-1.1.3.jar</URL>
+			<ModPath>mods/1.11.2/immersivepetroleum-1.11.2-1.1.3.jar</ModPath>
+			<Size>860118</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b8c2a58499456b0fd43182e6f6b7e6eb</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds oil and oil processing features to Immersive Engineering.</description>
+				<version>1.1.3</version>
+				<url>https://github.com/Flaxbeard/ImmersivePetroleum</url>
+				<authors>Flaxbeard</authors>
+			</Meta>
+		</Module>
+		<Module name="Immersive Railroading" id="immersiverailroading" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/ImmersiveRailroading-1.2.0_1.11.jar</URL>
+			<ModPath>mods/1.11.2/ImmersiveRailroading-1.2.0_1.11.jar</ModPath>
+			<Size>83248638</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f4c7c3269d24417a1478aec9c2c8db1e</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds Railroading to Minecraft in the style of Immersive Engineering</description>
+				<version></version>
+				<url></url>
+				<authors>Christian Mesh (cam72cam), TheLegend5550 , WrongWeekend, DennisTheCan, Thomas4peyton, Larky2k, FriedrichLP, TartaricAcid, gaojie429, StuffedCroc, Fleegle411</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/immersiverailroading_graphics.cfg</URL>
+				<Path>config/immersiverailroading_graphics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9d0ad0d462e0a6b4b0b57f2ce7d09895</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/immersiverailroading.cfg</URL>
+				<Path>config/immersiverailroading.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>72e0a682d67518d0214bf74854a38d6f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/immersiverailroading_sounds.cfg</URL>
+				<Path>config/immersiverailroading_sounds.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9407b1d09e22f65a09242e362ef06dc6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="InControl" id="incontrol" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/incontrol-1.0.0.jar</URL>
+			<Size>24076</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1aada0b3eab6a2af594175658d8cecec</MD5>
+			<Meta>
+				<credits>McJty</credits>
+				<description>Be In Control</description>
+				<version>1.0.0</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/incontrol/main.cfg</URL>
+				<Path>config/incontrol/main.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d471970a183f12d28237c1285bbf3c8e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/incontrol/spawn.json</URL>
+				<Path>config/incontrol/spawn.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fb12d5a395f1222ded1274e74785282c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Industrial Wires" id="industrialwires" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/IndustrialWires-1.5-19.jar</URL>
+			<ModPath>mods/1.11.2/IndustrialWires-1.5-19.jar</ModPath>
+			<Size>450235</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4ee26ac96baee0e25522be03317071f1</MD5>
+			<Meta>
+				<credits>BluSunrize and Mr. Damien Hazard for Immersive Engineering, the IC2 team for IC2</credits>
+				<description>An addon for IndustrialCraft2 and Immersive Engineering that adds IE wires to transfer IC2 power and other fun things!</description>
+				<version>1.5-19</version>
+				<url></url>
+				<authors>malte0811</authors>
+			</Meta>
+		</Module>
+		<Module name="Inventory Pets" id="InventoryPets" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/inventorypets-1.10-1.4.9.jar</URL>
+			<Size>6341740</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7dfb712ec2ea0aa9ed256c92a31d95ec</MD5>
+			<Meta>
+				<credits>Game concept, creative direction, textures, and development by A_villager and Capn_Kirok</credits>
+				<description>Inventory Pets are living animated creatures that exist in your inventory and give you amazing special effects, drops, buffs, utilities, defenses, and weapons in exchange for care and feeding.</description>
+				<version>1.4.9</version>
+				<url></url>
+				<authors>A_villager, Capn_Kirok</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/InventoryPets.cfg</URL>
+				<Path>config/InventoryPets.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8480fd5e3af3e74d3ac3ad11632a83e2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/InventoryPets/EntityBillGates.json</URL>
+				<Path>config/MobProperties/InventoryPets/EntityBillGates.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c1339ca7c7567a6e436338e02b6f6c16</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/InventoryPets/EntityAnvilPet.json</URL>
+				<Path>config/MobProperties/InventoryPets/EntityAnvilPet.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8cf24ffe9ae0f60bd9e6599d54c8aefb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/InventoryPets/MiniQuantumEnderman.json</URL>
+				<Path>config/MobProperties/InventoryPets/MiniQuantumEnderman.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1ce675cd8360c2763188acff9f3c720b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/InventoryPets/EntitySatyaNadella.json</URL>
+				<Path>config/MobProperties/InventoryPets/EntitySatyaNadella.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>50c39159439d23e76475f00c243432a7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/InventoryPets/MiniQuantumBlaze.json</URL>
+				<Path>config/MobProperties/InventoryPets/MiniQuantumBlaze.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5ec4c737a0269562587e47f3c875645b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/InventoryPets/EntitySteveBallmer.json</URL>
+				<Path>config/MobProperties/InventoryPets/EntitySteveBallmer.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>da563f22bb51c25ab3377fdb3d79b2ac</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/InventoryPets/EntityBedPet.json</URL>
+				<Path>config/MobProperties/InventoryPets/EntityBedPet.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c4297efd2529864fca925196ced6f8c2</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Inventory Pets" id="inventorypets" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/inventorypets-1.11.2-1.4.9.9b.jar</URL>
+			<ModPath>mods/1.11.2/inventorypets-1.11.2-1.4.9.9b.jar</ModPath>
+			<Size>6363322</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>376b4d28aa4d93ece902d4b9b5555529</MD5>
+			<Meta>
+				<credits>Game concept, creative direction, textures, and development by A_villager and Capn_Kirok. Anvil and Bed pet models by RazzleberryFox</credits>
+				<description>Inventory Pets are living animated creatures that exist in your inventory and give you amazing special effects, drops, buffs, utilities, defenses, and weapons in exchange for care and feeding.</description>
+				<version>1.4.9.9b</version>
+				<url></url>
+				<authors>A_villager, Capn_Kirok</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/jei_1.11.2-4.5.1.296.jar</URL>
+			<ModPath>mods/1.11.2/jei_1.11.2-4.5.1.296.jar</ModPath>
+			<Size>542399</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>584b3099d34c9a1b8649385b90831b34</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>4.5.1.296</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/JEI/jei.cfg</URL>
+				<Path>config/JEI/jei.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3bd5af706df240a06f70bb8dac46d691</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Just Enough Items" id="JEI" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/jei_1.10.2-3.13.6.387.jar</URL>
+			<Size>461211</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ddc3d8f2ad71f5f40f0acbb913c7907b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>3.13.6.387</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/JEI/itemBlacklist.cfg</URL>
+				<Path>config/JEI/itemBlacklist.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c698bb4c67b3310e133ef1e4adbcdb35</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/JEI/searchColors.cfg</URL>
+				<Path>config/JEI/searchColors.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2cf9560152e9957b6e7e62d4e36107cb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/JEI/worldSettings.cfg</URL>
+				<Path>config/JEI/worldSettings.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b9e61d8245f485a91ba54edb526cade6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="latest" id="latest" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/logs/latest.log</URL>
+			<Size>400787</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fa84ca8d7b90bd0bd954fef444e40b6b</MD5>
+		</Module>
+		<Module name="marriage-master" id="marriage-master" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/marriage-master.jar</URL>
+			<Size>583523</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>569ba2de58382068c625f49f369b34c4</MD5>
+		</Module>
+		<Module name="MCU-FastPack-latest" id="MCU-FastPack-latest" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/MCU-FastPack-latest.jar</URL>
+			<Size>16603104</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8ff47ec098678203d8d933c249d2faf7</MD5>
+		</Module>
+		<Module name="Minecraft Forge" id="forge-12.18.3.2185" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Override</ModType>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/forgeChunkLoading.cfg</URL>
+				<Path>config/forgeChunkLoading.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>826a8ee5017d1a7ab55083fba550fcd4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/splash.properties</URL>
+				<Path>config/splash.properties</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>23be8b3c461de8da515b9f3da63722ec</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/forge.cfg</URL>
+				<Path>config/forge.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>afec02809edba5a62f9948bb28909a6c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Mob Properties" id="mob_properties" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/mob_properties-1.10.2-1.0.3.jar</URL>
+			<Size>150924</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cc62a5a252eca4fcb7e037618c6071e7</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows advanced customization options for all mobs&apos; drops, attributes, and NBT data.</description>
+				<version>1.10.2-1.0.3</version>
+				<url>http://www.minecraftforum.net/topic/1153874-/</url>
+				<authors>FatherToast</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcfurrymale.json</URL>
+				<Path>config/MobProperties/npcfurrymale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>50b2f48467f528f36eb25124cc7b0939</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcdwarfmale.json</URL>
+				<Path>config/MobProperties/npcdwarfmale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1b1454f8a9b78952b2a8b5c296c465db</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcvillager.json</URL>
+				<Path>config/MobProperties/npcvillager.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>60802198818c96c6c792499e7407fc2a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcGolem.json</URL>
+				<Path>config/MobProperties/npcGolem.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>172c97f79706c948157e13013b44ef87</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcorcfmale.json</URL>
+				<Path>config/MobProperties/npcorcfmale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e66eafab23acb13778a87f29fde61a11</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/CustomNpc.json</URL>
+				<Path>config/MobProperties/CustomNpc.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1bc64f5db0af3d9613f43d039c28b007</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcelffemale.json</URL>
+				<Path>config/MobProperties/npcelffemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3a65ac3e6eb0d7a74198150924f305c5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcdwarffemale.json</URL>
+				<Path>config/MobProperties/npcdwarffemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>27837b27bdc6b5850eadea80827c8173</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcenderchibi.json</URL>
+				<Path>config/MobProperties/npcenderchibi.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c37652d4595bbfc7e2c8b6c0128f4e35</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcfurryfemale.json</URL>
+				<Path>config/MobProperties/npcfurryfemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d317a658b78a9be8ba6ca37fecef541f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcEnderman.json</URL>
+				<Path>config/MobProperties/npcEnderman.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1f13a1f2ab4eca158a7d285a319b6963</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcnagamale.json</URL>
+				<Path>config/MobProperties/npcnagamale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bfad91a8faff9d489c18952c649ed7b7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/CustomNpc64x32.json</URL>
+				<Path>config/MobProperties/CustomNpc64x32.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bb74d5ba7adfea4c43060d5f548f625c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcelfmale.json</URL>
+				<Path>config/MobProperties/npcelfmale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d04f09459d6a401c8db26ab85356e89f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcskeleton.json</URL>
+				<Path>config/MobProperties/npcskeleton.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e54d873db50dddbd8843ffaaff2d736a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcpony.json</URL>
+				<Path>config/MobProperties/npcpony.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8c8db1a12bcb9523ccfcaeeade7d0ca6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npchumanmale.json</URL>
+				<Path>config/MobProperties/npchumanmale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ab4476f0dc630b66068ded646b7d58e4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npczombiefemale.json</URL>
+				<Path>config/MobProperties/npczombiefemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>54f503a5987c7f7076862edb7769d72b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npccrystal.json</URL>
+				<Path>config/MobProperties/npccrystal.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>99f6cb55a5e8f29cfd5107d2f7090453</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npczombiemale.json</URL>
+				<Path>config/MobProperties/npczombiemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>44ad2e88eef611cf4c8d365a88cda8bc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcorcfemale.json</URL>
+				<Path>config/MobProperties/npcorcfemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f5c20fd107a09ad3db980dba798fff1c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/NpcSlime.json</URL>
+				<Path>config/MobProperties/NpcSlime.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ec321986bdc8e3f9f14f6a7754978f51</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/EntityHorse.json</URL>
+				<Path>config/MobProperties/minecraft/EntityHorse.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6f7e5e8741a47b1555bc7fd8d5ba3f2b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Pig.json</URL>
+				<Path>config/MobProperties/minecraft/Pig.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ea8e4b04b576462e241904ee4490ac6d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Villager.json</URL>
+				<Path>config/MobProperties/minecraft/Villager.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>56a6bd4b296677e3ce828ad761929e72</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/MushroomCow.json</URL>
+				<Path>config/MobProperties/minecraft/MushroomCow.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4bbe0b3344fe4b1d1977dd1d5042a69e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Chicken.json</URL>
+				<Path>config/MobProperties/minecraft/Chicken.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ba0a61acad73e5941886507d440ca417</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Wolf.json</URL>
+				<Path>config/MobProperties/minecraft/Wolf.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>20e66a0e04c52ff5374968a7fd6162e1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Shulker.json</URL>
+				<Path>config/MobProperties/minecraft/Shulker.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2da4e2ad22ae43a06641d04969b84a69</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/PolarBear.json</URL>
+				<Path>config/MobProperties/minecraft/PolarBear.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d73315a414f77d283ec71cfdd320413b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/LavaSlime.json</URL>
+				<Path>config/MobProperties/minecraft/LavaSlime.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8ecb87d7d115085dfcab8e82ba22e3ec</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Cow.json</URL>
+				<Path>config/MobProperties/minecraft/Cow.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>329a12bf63e2cbe5c5a8c3eb2c83c510</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Ozelot.json</URL>
+				<Path>config/MobProperties/minecraft/Ozelot.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9c20457e17a6832db1a19f77d331f470</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Enderman.json</URL>
+				<Path>config/MobProperties/minecraft/Enderman.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>46758ddbcf983fcf0c9a607f7150afe0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Creeper.json</URL>
+				<Path>config/MobProperties/minecraft/Creeper.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5169ff00c8593fe4428aefed9bc7ed45</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/WitherBoss.json</URL>
+				<Path>config/MobProperties/minecraft/WitherBoss.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e0916fbb346fc8b38b18deff61bc4fc0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/EnderDragon.json</URL>
+				<Path>config/MobProperties/minecraft/EnderDragon.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f6b1f3b4d99ca92219b1ba59aefa48f8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Slime.json</URL>
+				<Path>config/MobProperties/minecraft/Slime.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d7519de17017581837fca8abfb5e0be3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Endermite.json</URL>
+				<Path>config/MobProperties/minecraft/Endermite.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7f92080e9213e23b4abc7ef4c6a9f050</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Sheep.json</URL>
+				<Path>config/MobProperties/minecraft/Sheep.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c45455c35d45b0a83d356ac6f8f78dc8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Witch.json</URL>
+				<Path>config/MobProperties/minecraft/Witch.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b2629ef255fda4f587a76e9a0351eeb2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/CaveSpider.json</URL>
+				<Path>config/MobProperties/minecraft/CaveSpider.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f1ed87f26f7f2653e32450ae2f8bf93d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Skeleton.json</URL>
+				<Path>config/MobProperties/minecraft/Skeleton.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d1e4931d4f90a5495f726c2876a751d8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/ArmorStand.json</URL>
+				<Path>config/MobProperties/minecraft/ArmorStand.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>67ae67b3155c1ad3479f986247b0eb64</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Spider.json</URL>
+				<Path>config/MobProperties/minecraft/Spider.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>86181b55130538b2a71248dcb6580547</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Silverfish.json</URL>
+				<Path>config/MobProperties/minecraft/Silverfish.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>49cabd72a8aeb73b8d4cc2b1434fe662</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Squid.json</URL>
+				<Path>config/MobProperties/minecraft/Squid.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ec82aaf210f701098cf80ee9cfdb6143</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/SnowMan.json</URL>
+				<Path>config/MobProperties/minecraft/SnowMan.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>270e423487f759a49828035dcc157689</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Guardian.json</URL>
+				<Path>config/MobProperties/minecraft/Guardian.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2efa9726d574e03759968b119d90c872</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Bat.json</URL>
+				<Path>config/MobProperties/minecraft/Bat.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ba6a0f6ec140f67d22ad3334028d8c93</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/PigZombie.json</URL>
+				<Path>config/MobProperties/minecraft/PigZombie.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bcd126cfb0818d62128db10b8dc71086</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Blaze.json</URL>
+				<Path>config/MobProperties/minecraft/Blaze.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9b3d1a1bd0dd0164a9877760607d5165</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Zombie.json</URL>
+				<Path>config/MobProperties/minecraft/Zombie.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fdf9ef0e2558ed88551b116f87c923b3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/VillagerGolem.json</URL>
+				<Path>config/MobProperties/minecraft/VillagerGolem.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>299bf1258769105a3adcb61e732a2f9f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Giant.json</URL>
+				<Path>config/MobProperties/minecraft/Giant.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>61f2af46fcce2ec485ad666f81968af8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Rabbit.json</URL>
+				<Path>config/MobProperties/minecraft/Rabbit.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>42574f563a76abd5d0903a1aa19c4588</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/minecraft/Ghast.json</URL>
+				<Path>config/MobProperties/minecraft/Ghast.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4576cc7b04742b25570f465acb008259</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npchumanfemale.json</URL>
+				<Path>config/MobProperties/npchumanfemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>312f73eac79e0655c3b9f9bec3547ffe</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/npcnagafemale.json</URL>
+				<Path>config/MobProperties/npcnagafemale.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>305f3840dce704363641b563824f42ba</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/NpcDragon.json</URL>
+				<Path>config/MobProperties/NpcDragon.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>75ddf22f67cffee6959b3e0564903e2a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/mob_properties.cfg</URL>
+				<Path>config/mob_properties.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>41ea50fd5ddc9b4d693cfa1ba479bf8d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties.json</URL>
+				<Path>config/MobProperties.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d97e76d3d2afce11784674f61fa64e04</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Mob Settings" id="mobsettings" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/mobsettings-1.10.2-1.4.1.jar</URL>
+			<Size>26219</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b196593cb6afc1ad062fcb1bc124ea80</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Mob Settings allows you to customize the mobs settings</description>
+				<version>1.10.2-1.4.1</version>
+				<url>https://minecraft.curseforge.com/projects/mob-settings</url>
+				<authors>sokratis12GR and Moritz30 in Association with TheDragonTeam</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/mobsettings.cfg</URL>
+				<Path>config/mobsettings.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>74ca08843d3a1f7a5b0685af6a4fa523</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Modern Warfare" id="mw" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/mw-1.10.3_mc1.10.2.jar</URL>
+			<Size>24192870</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c4f9e625da1f4987117799b0af1cf19e</MD5>
+			<Meta>
+				<credits>Vic4Games</credits>
+				<description>Modern Warfare Mod</description>
+				<version>1.10.3</version>
+				<url></url>
+				<authors>Vic4Games</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/ModernWarfare.cfg</URL>
+				<Path>config/ModernWarfare.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1a5c4d63d6f46ea04f3aebff294b7c35</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Not Enough Items" id="NEI" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/NotEnoughItems-1.10.2-2.1.2.164-universal.jar</URL>
+			<Size>545089</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b9094e2d483c0a1dd320cc50eb21d817</MD5>
+			<Meta>
+				<credits>Alexandria - original idea</credits>
+				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.
+
+&lt;plugins&gt;
+
+Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Donut, Sleement, Ninja 5tyl3, Disalot</description>
+				<version>2.1.2.164</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/NEI/client.cfg</URL>
+				<Path>config/NEI/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>b4a2704c97261f0ac7329b930b36d328</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="NPC Integration" id="bq_npc_integration" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/NPCIntegration-2.3.22.jar</URL>
+			<Size>62274</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>01c10c46a3c56d4543d8bbd714daeebd</MD5>
+			<Meta>
+				<credits>TheMattaBase, Noppes</credits>
+				<description>Provides tasks and rewards to integrate Custom NPCs into Better Questing</description>
+				<version>2.3.22</version>
+				<url></url>
+				<authors>Funwayguy</authors>
+			</Meta>
+		</Module>
+		<Module name="OpenComputers" id="opencomputers" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/OpenComputers-MC1.11.2-1.7.2.97.jar</URL>
+			<ModPath>mods/1.11.2/OpenComputers-MC1.11.2-1.7.2.97.jar</ModPath>
+			<Size>14284248</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b04499f7b7a12f77f42a6d864df63d87</MD5>
+			<Meta>
+				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
+				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
+				<version>1.7.2.97</version>
+				<url>http://oc.cil.li/</url>
+				<authors>Sangar, Vexatos, payonel, magik6k, Lord Joda, Github Contributors</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/opencomputers/user.recipes</URL>
+				<Path>config/opencomputers/user.recipes</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3d73e5a17c471ee629cfddae571a3fca</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/opencomputers/default.recipes</URL>
+				<Path>config/opencomputers/default.recipes</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>18ee01b46850a0a4d34532202931af29</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/opencomputers/settings.conf</URL>
+				<Path>config/opencomputers/settings.conf</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>43ac6858c60d8fea3665c66a17a22c7c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/opencomputers/gregtech.recipes</URL>
+				<Path>config/opencomputers/gregtech.recipes</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ea31a3c4efcdd7e2fe7193ffa50d9764</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/opencomputers/peaceful.recipes</URL>
+				<Path>config/opencomputers/peaceful.recipes</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a82d9567f6aa63634283aa979456c6ef</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/opencomputers/hardmode.recipes</URL>
+				<Path>config/opencomputers/hardmode.recipes</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>24393d8825c3aff62f93df5d312191e6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="OpenComputers" id="OpenComputers" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/OpenComputers-MC1.10.2-1.6.0.4.jar</URL>
+			<Size>12057458</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e86a20daf0f33470278b654bcfa6d6f9</MD5>
+			<Meta>
+				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
+				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
+				<version>1.6.0.4</version>
+				<url>http://oc.cil.li/</url>
+				<authors>Florian &apos;Sangar&apos; Nuecke, Johannes &apos;Lord Joda&apos; Lohrer, Everyone who contributed to the mod on Github - thank you!</authors>
+			</Meta>
+		</Module>
+		<Module name="OpenComputersMod-1.6.0.4-lua53-native.64" id="OpenComputersMod-...-lua-native" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/OpenComputersMod-1.6.0.4-lua53-native.64.dll</URL>
+			<Size>513536</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e235bc1f7673a54dbf18ea836b888993</MD5>
+		</Module>
+		<Module name="OptiFine_1.10.2_HD_U_E7" id="OptiFine_.._HD_U_E" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/OptiFine_1.10.2_HD_U_E7.jar</URL>
+			<Size>2238906</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>48214bd01d7db28527269003d7a7c3bc</MD5>
+		</Module>
+		<Module name="OptiFine_1.11.2_HD_U_C7" id="OptiFine_.._HD_U_C" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/1.11.2/OptiFine_1.11.2_HD_U_C7.jar</URL>
+			<ModPath>mods/1.11.2/OptiFine_1.11.2_HD_U_C7.jar</ModPath>
+			<Size>2254712</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0dd7761e908f9b245bb0dc0fac5649f5</MD5>
+		</Module>
+		<Module name="options" id="options" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/options.txt</URL>
+			<Size>3061</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>60466e45305480455324519cfcc018a0</MD5>
+		</Module>
+		<Module name="optionsof" id="optionsof" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/optionsof.txt</URL>
+			<Size>1292</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c9703e1212c57b78b12709a94402f837</MD5>
+		</Module>
+		<Module name="optionsshaders" id="optionsshaders" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/optionsshaders.txt</URL>
+			<Size>397</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c2af428320a8ddd175c4f182d353a76e</MD5>
+		</Module>
+		<Module name="Pam&apos;s HarvestCraft" id="harvestcraft" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/Pam&apos;s%20HarvestCraft%201.9.4-1.10.2h.jar</URL>
+			<Size>3055612</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>49095051cacbf4a1554374f58c3f74da</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Expanding minecraft&apos;s food system.</description>
+				<version>1.9.4-1.10.2g</version>
+				<url>http://minecraft.curseforge.com/members/MatrexsVigil/projects</url>
+				<authors>Pamela Collins</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/harvestcraft.cfg</URL>
+				<Path>config/harvestcraft.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b19c5a7652b3d2be57317c00be295bc9</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Raiders" id="playerraiders" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/PlayerRaiders-1.10.2-1.4.0.jar</URL>
+			<Size>1795681</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fdfa5153e94af0b1cd30b325a1b87acc</MD5>
+			<Meta>
+				<credits>Custom mod originally for Invasion Modpack by Darkosto</credits>
+				<description>Creates Fake Players, That are all trying to kill you</description>
+				<version>1.4.0</version>
+				<url>https://minecraft.curseforge.com/projects/raiders</url>
+				<authors>GenDeathrow, Darkosto</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/MobProperties/playerraiders/Raiders.json</URL>
+				<Path>config/MobProperties/playerraiders/Raiders.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b9fade4e65c2b999fe3f973af475a603</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/raiders/raiders.json</URL>
+				<Path>config/raiders/raiders.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>759737f5540d6b59d5af937ec9bc793c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="raidersKillCnt" id="raidersKillCnt" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/raidersKillCnt.txt</URL>
+			<Size>1</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>68b329da9893e34099c7d8ad5cb9c940</MD5>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/raiders/settings.cfg</URL>
+				<Path>config/raiders/settings.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c49d457d2281a4b27d3e81871c2903d6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/raiders/equipment.json</URL>
+				<Path>config/raiders/equipment.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8a89576df058240765bf93d1b934b88d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Railcraft" id="railcraft" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/Railcraft_1.10.2-10.0.1.jar</URL>
+			<Size>3707140</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4d4ab3832e74a531c0c43c1c68a947fb</MD5>
+			<Meta>
+				<credits>Created by CovertJaguar</credits>
+				<description>Redefine your rails</description>
+				<version>10.0.1</version>
+				<url>http://railcraft.info/</url>
+				<authors>CovertJaguar</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/railcraft/blocks.cfg</URL>
+				<Path>config/railcraft/blocks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0596fe8e475cebb70c55e1e76b5da49b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/railcraft/items.cfg</URL>
+				<Path>config/railcraft/items.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d276f731aff2329fed50074b53174319</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/railcraft/entities.cfg</URL>
+				<Path>config/railcraft/entities.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7273c31bc0e490fde15b685b52d79776</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/railcraft/railcraft.cfg</URL>
+				<Path>config/railcraft/railcraft.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>73c217d1a2e10c90f2aa6a1f8781a72b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/railcraft/modules.cfg</URL>
+				<Path>config/railcraft/modules.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>59e800fc8970e0e3a4e9f6c126cf8972</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/railcraft/client.cfg</URL>
+				<Path>config/railcraft/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>aee0dd1e2d771f362108f497ba69cfef</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Realistic Terrain Generation" id="RTG" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/RTG-1.10.2-4.1.2.0.jar</URL>
+			<Size>1290046</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4472ba421f758d7d345687ad6f4a293f</MD5>
+			<Meta>
+				<credits>Forked from RWG by ted80. OpenSimplex Noise by KdotJPG.</credits>
+				<description>Adds a new world type which generates realistic terrain for Overworld biomes.</description>
+				<version>4.1.2.0</version>
+				<url>https://github.com/Team-RTG/Realistic-Terrain-Generation</url>
+				<authors>Team RTG</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/desert.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/desert.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5b7dbcd4cc858cac8d6e5f06f1785a33</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/mesa.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/mesa.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bf565d252f8122d1f6b927b388e58a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/plains.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/plains.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ffcf17d175a9c73fee0922c5abfadebe</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/savannaplateau.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/savannaplateau.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bf565d252f8122d1f6b927b388e58a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/mesabryce.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/mesabryce.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>95072e03de492d236bd691a1a4b05a2a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/mesaplateauf.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/mesaplateauf.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bf565d252f8122d1f6b927b388e58a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/frozenriver.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/frozenriver.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>95072e03de492d236bd691a1a4b05a2a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/junglehills.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/junglehills.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>096cf18842007aca900ba67b01509c5e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/river.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/river.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>95072e03de492d236bd691a1a4b05a2a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/taiga.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/taiga.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/coldbeach.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/coldbeach.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>95072e03de492d236bd691a1a4b05a2a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/desertm.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/desertm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bf565d252f8122d1f6b927b388e58a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/jungleedge.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/jungleedge.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>84182c4ef59c24fc8ff6086fa6740f99</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/flowerforest.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/flowerforest.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/extremehillsedge.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/extremehillsedge.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c262281eb93aa768a24f4299474e4321</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/icemountains.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/icemountains.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5ff389c4b24e047c20beab1e329df3b2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/megataigahills.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/megataigahills.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e8f02f8ff116217d0925d8e88a039dbc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/iceplainsspikes.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/iceplainsspikes.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bf565d252f8122d1f6b927b388e58a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/forest.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/forest.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/birchforest.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/birchforest.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/extremehillsplusm.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/extremehillsplusm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5f379dd3ea47049238c6c15027d7314c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/savannam.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/savannam.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/extremehills.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/extremehills.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c262281eb93aa768a24f4299474e4321</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/birchforesthills.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/birchforesthills.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/deepocean.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/deepocean.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>04cc72acdd3d348f3a53082ca0c2d923</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/coldtaigahills.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/coldtaigahills.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1617a4e13ff3a55809a38688aa3fb6b3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/coldtaigam.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/coldtaigam.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1617a4e13ff3a55809a38688aa3fb6b3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/extremehillsplus.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/extremehillsplus.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/coldtaiga.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/coldtaiga.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1617a4e13ff3a55809a38688aa3fb6b3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/jungle.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/jungle.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>491f61b39e8e46e062082ec60c9374b3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/beach.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/beach.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b408d7e6c135996b3da1ba0555abf232</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/iceplains.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/iceplains.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1617a4e13ff3a55809a38688aa3fb6b3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/savannaplateaum.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/savannaplateaum.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bf565d252f8122d1f6b927b388e58a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/stonebeach.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/stonebeach.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>95072e03de492d236bd691a1a4b05a2a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/deserthills.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/deserthills.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bf565d252f8122d1f6b927b388e58a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/savanna.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/savanna.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/mushroomislandshore.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/mushroomislandshore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>95072e03de492d236bd691a1a4b05a2a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/jungleedgem.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/jungleedgem.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>84182c4ef59c24fc8ff6086fa6740f99</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/taigam.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/taigam.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/roofedforestm.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/roofedforestm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/swampland.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/swampland.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1617a4e13ff3a55809a38688aa3fb6b3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/birchforesthillsm.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/birchforesthillsm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1617a4e13ff3a55809a38688aa3fb6b3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/taigahills.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/taigahills.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/mesaplateaum.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/mesaplateaum.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bf565d252f8122d1f6b927b388e58a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/mushroomisland.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/mushroomisland.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>95072e03de492d236bd691a1a4b05a2a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/foresthills.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/foresthills.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/megasprucetaiga.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/megasprucetaiga.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e8f02f8ff116217d0925d8e88a039dbc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/roofedforest.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/roofedforest.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>da5ea888fed4b5ce7bfbc4e7f5da82b9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/frozenocean.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/frozenocean.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>04cc72acdd3d348f3a53082ca0c2d923</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/sunflowerplains.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/sunflowerplains.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bf565d252f8122d1f6b927b388e58a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/ocean.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/ocean.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>04cc72acdd3d348f3a53082ca0c2d923</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/mesaplateaufm.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/mesaplateaufm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bf565d252f8122d1f6b927b388e58a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/megataiga.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/megataiga.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e8f02f8ff116217d0925d8e88a039dbc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/mesaplateau.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/mesaplateau.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bf565d252f8122d1f6b927b388e58a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/birchforestm.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/birchforestm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c74c4f55a3fb21ee08c8415f6090b4cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/extremehillsm.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/extremehillsm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5ff389c4b24e047c20beab1e329df3b2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/junglem.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/junglem.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>096cf18842007aca900ba67b01509c5e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/redwoodtaigahillsm.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/redwoodtaigahillsm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1617a4e13ff3a55809a38688aa3fb6b3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/biomes/vanilla/swamplandm.cfg</URL>
+				<Path>config/RTG/biomes/vanilla/swamplandm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1617a4e13ff3a55809a38688aa3fb6b3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/RTG/rtg.cfg</URL>
+				<Path>config/RTG/rtg.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d8ff6031a74bc7d940839d40c1ba7333</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Resource Loader" id="ResourceLoader" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/ResourceLoader-MC1.9.4-1.5.1.jar</URL>
+			<Size>12088</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fd851602890014f31b54ad0e009e5612</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows mod pack creators / users to add their own custom textures to minecrafts resources without making a resource pack.</description>
+				<version>1.5.1</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/resources/cmenu/textures/gui/minecraft.psd</URL>
+				<Path>resources/cmenu/textures/gui/minecraft.psd</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>221513687da8ad545f87414626ffa839</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/resources/cmenu/textures/gui/minecraft.png</URL>
+				<Path>resources/cmenu/textures/gui/minecraft.png</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ffd720bc72df8030fd4d94c9af9d4c95</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="servers" id="servers" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/servers.dat</URL>
+			<Size>12780</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b200511e3e55e5e4a0edd27cca09af56</MD5>
+		</Module>
+		<Module name="settings" id="settings" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/settings.rtg</URL>
+			<Size>17</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4c074d93091cacc681d1509bb19aa274</MD5>
+		</Module>
+		<Module name="shadersmod" id="shadersmod" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/logs/shadersmod.log</URL>
+			<Size>2815</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3db7ff1943ea0942aa9d4abf21b4a4b5</MD5>
+		</Module>
+		<Module name="Shopkeepers" id="Shopkeepers" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/Shopkeepers.jar</URL>
+			<Size>310674</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d48cbdd1106a1cda86378fe706aad81d</MD5>
+		</Module>
+		<Module name="sounds" id="sounds" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/customnpcs/assets/customnpcs/sounds.json</URL>
+			<Size>4</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>22e67cc3ae278cb47bca0058382d3330</MD5>
+		</Module>
+		<Module name="Standard Expansion" id="bq_standard" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/StandardExpansion-2.3.131.jar</URL>
+			<Size>400208</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7f416e33be6590b0c4df7b1ff1d146af</MD5>
+			<Meta>
+				<credits>Thank you Patreons for all your support &lt;3</credits>
+				<description>Contains all the standard tasks, rewards, importers and themes for Better Questing</description>
+				<version>2.3.131</version>
+				<url></url>
+				<authors>Funwayguy</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/bq_standard.cfg</URL>
+				<Path>config/bq_standard.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2307615939fddbb07d203990d9c693cc</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="TheDragonLib" id="thedragonlib" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/thedragonlib-1.10.2-1.0.3.1.jar</URL>
+			<Size>100077</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dea71e1f956895df6c2d378ad3ae596f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A library for all TheDragonTeam&apos;s Mods</description>
+				<version>1.10.2-1.0.3.1</version>
+				<url></url>
+				<authors>Moritz30, sokratis12GR</authors>
+			</Meta>
+		</Module>
+		<Module name="usercache" id="usercache" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/usercache.json</URL>
+			<Size>3092</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ea27fae7298077c248db46b695d1131e</MD5>
+		</Module>
+		<Module name="usernamecache" id="usernamecache" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/usernamecache.json</URL>
+			<Size>56</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8d3a8d520264e7a7310dd221689d0993</MD5>
+		</Module>
+		<Module name="Waila" id="Waila" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/Waila-1.7.0-B3_1.9.4.jar</URL>
+			<Size>544490</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ad5733255dac0b85b9bbe38749638060</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.7.0-B3</version>
+				<url></url>
+				<authors>ProfMobius</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/Waila.cfg</URL>
+				<Path>config/Waila.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>05d452c0c0be0f2ab71c38614bf97494</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Wisdom-Shaders-V3.2-Release-Build3230" id="Wisdom-Shaders-V.-Release-Build" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/shaderpacks/Wisdom-Shaders-V3.2-Release-Build3230.zip</URL>
+			<Size>1461796</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f5758b79b4e062df44f7d2779c30028a</MD5>
+		</Module>
+		<Module name="WorldEdit" id="worldedit" depends="" side="BOTH">
+			<URL priority="0">http://files.development.house/cbg/mods/worldedit-forge-mc1.10.2-6.1.4-dist.jar</URL>
+			<Size>1464826</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a11beee46ed55203067cfbe1b2c30501</MD5>
+			<Meta>
+				<credits></credits>
+				<description>WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer.</description>
+				<version>6.1.4-SNAPSHOT;b9801eb</version>
+				<url>http://wiki.sk89q.com/wiki/WorldEdit</url>
+				<authors>sk89q, wizjany, TomyLobo, kenzierocks</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/worldedit/worldedit.properties</URL>
+				<Path>config/worldedit/worldedit.properties</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>83711ccfcb93b2675c6735bd6971fef4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://files.development.house/cbg/config/PTRModelLib.cfg</URL>
+				<Path>config/PTRModelLib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6a40d55902ae51dd5835f25f650df33f</MD5>
+			</ConfigFile>
+		</Module>
+	</Server>
+</ServerPack>

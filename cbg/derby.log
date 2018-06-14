@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Jun 14 15:39:29 CDT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0164-0006-4851-00000e509ad0 
+on database directory /Users/ccawley/Library/Application Support/MCUpdater/database with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1de0aca6 
+Loaded from file:/Users/ccawley/notfuckingicloud/Curse/Minecraft/Instances/Carrucan-master/MCU-FastPack-latest.jar
+java.vendor=Oracle Corporation
+java.runtime.version=10+46
+user.dir=/Users/ccawley/notfuckingicloud/Curse/Minecraft/Instances/Carrucan-master
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.4
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
