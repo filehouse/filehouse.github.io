@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "Carrucan's Battlegrounds",
+      "name" : "Carrucan's Battlegrounds",
+      "version" : "2018-06-21-13-05-38",
+      "location" : "carrucan-s-battlegrounds.json",
+      "priority" : 0
+    }
+  ]
+}
