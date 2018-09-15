@@ -1,6 +1,0 @@
-[00:00:51] [Client thread/INFO]: Applying holder lookups
-[00:00:51] [Client thread/INFO]: Holder lookups applied
-[00:00:58] [Netty Client IO #0/INFO]: Attempting connection with missing mods [betterfoliage, custommainmenu, ResourceLoader] at SERVER
-[00:10:36] [Client thread/INFO]: Stopping!
-[00:10:36] [Client thread/INFO]: SoundSystem shutting down...
-[00:10:37] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
