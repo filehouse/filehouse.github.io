@@ -2,10 +2,10 @@
   "minimumVersion" : 1,
   "packages" : [
     {
-      "title" : "Carrucan's Battlegrounds",
-      "name" : "Carrucan's Battlegrounds",
-      "version" : "2018-07-12-00-15-33",
-      "location" : "carrucan-s-battlegrounds.json",
+      "title" : "Utopia",
+      "name" : "Utopia",
+      "version" : "0.9",
+      "location" : "utopia.json",
       "priority" : 0
     }
   ]
